@@ -93,6 +93,7 @@ function computer (l){
          console.log("stopped",num);
          count=count+1;
          console.log("count-",count);
+         if(gameover===0) 
          result();
          top=0;
           break;}
